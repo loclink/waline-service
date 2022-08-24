@@ -62,6 +62,7 @@ npm run start
 npm run dev # 开发时前台启动服务并保持代码热更新
 npm run stop # 停止运行
 npm run log # 查看日志
+npm run status # 查看运行状态
 ```
 
 ### 服务反向代理：
