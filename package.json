@@ -6,8 +6,9 @@
   "scripts": {
     "init:db": "node ./src/init/init-database.js",
     "init:env": "node ./src/init/create-env.js",
-    "start": "pm2 start ./ecosystem.config.js -f",
+    "start": "pm2 start ./ecosystem.config.js",
     "stop": "pm2 stop waline-service",
+    "log": "pm2 log waline-service",
     "dev": "nodemon ./src/main.js"
   },
   "keywords": [],
