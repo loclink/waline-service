@@ -1,0 +1,23 @@
+{
+  "name": "waline-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "init:db": "node ./src/init/init-database.js",
+    "create:env": "node ./src/init/create-env.js",
+    "start": "pm2 start ./ecosystem.config.js -f",
+    "stop": "pm2 stop waline-service",
+    "dev": "nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@waline/vercel": "^1.19.3",
+    "dotenv": "^16.0.1",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.19",
+    "pm2": "^5.2.0"
+  }
+}
