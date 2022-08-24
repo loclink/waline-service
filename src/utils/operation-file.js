@@ -13,6 +13,5 @@ const createFile = async (actionPath, fileName) => {
 
 module.exports = {
   copyFile,
-  createFile,
-  readSqlFile
+  createFile
 };
