@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "init:db": "node ./src/init/init-database.js",
-    "create:env": "node ./src/init/create-env.js",
+    "init:env": "node ./src/init/create-env.js",
     "start": "pm2 start ./ecosystem.config.js -f",
     "stop": "pm2 stop waline-service",
     "dev": "nodemon ./src/main.js"
