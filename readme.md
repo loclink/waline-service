@@ -2,8 +2,11 @@
 
 ## 概述：
 
-> 本项目用作 Waline 独立部署，帮助你自动初始化数据库，一键实现可监控式后台运行。
+[waline](https://waline.js.org/) 是一款简洁、安全的评论系统，该系统包含了客户端与服务端。 而 WalineService 是用作 waline 评论系统服务端可监控式后台运行，以及自动初始化数据等操作的独立部署解决方案。
+
 > 部署前你需要准备好已安装`mysql`数据库的服务器，或云数据库（本项目目前只支持 mysql），并在服务器中执行以下操作。
+
+如果你在使用 WalineService 后，还想了解它的本质，那么可以前往：[waline 一键独立部署解决方案](https://www.tj520.top/views/articles/back-end/waline-service.html)
 
 ### 拉取仓库：
 
@@ -71,7 +74,7 @@ npm run status # 查看运行状态
 
 ### 关于：
 
-仓库地址：https://github.com/loclink/waline-service，如果你觉得还不错的话，就留下一个star吧~
+如果你觉得还不错的话，请留下一个 star 吧~
 
 主要依赖：[waline](https://github.com/walinejs/waline)
 
