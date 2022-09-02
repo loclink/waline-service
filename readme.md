@@ -3,7 +3,7 @@
 ## 概述：
 
 > 本项目用作 Waline 独立部署，帮助你自动初始化数据库，一键实现可监控式后台运行。
-> 部署前你需要准备好已安装`mysql`数据库的服务器，或云数据库（本项目目前只支持 mysql），并在服务器中执行以下操作。
+> 在部署[waline-service](https://github.com/loclink/waline-service)前你需要准备好已安装数据库的服务器或云数据库（并在服务器中执行以下操作，该项目支持所有 waline 所支持的数据库，参考：[多数据库服务支持](https://waline.js.org/guide/server/databases.html)。但`npm run init:db`命令当前仅支持 `mysql`
 
 ### 拉取仓库：
 
