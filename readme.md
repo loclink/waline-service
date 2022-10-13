@@ -28,6 +28,8 @@ MYSQL_PORT=3306 # 数据库连接端口号
 MYSQL_DB=waline # 数据库名
 MYSQL_USER=root # 连接数据库用户名
 MYSQL_PASSWORD=tj991118 # 连接密码
+SITE_NAME=example # 网站名称，用于在消息中显示。
+SITE_URL=https://example.com # 网站地址，用于在消息中显示
 ```
 
 如果你嫌麻烦，还可以直接通过执行命令的方式创建`.env`文件，然后再进行修改：
